@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+.matrix {
+    position: relative;
+}
+body {
+    padding: 20px;    
+}
+.matrix:before, .matrix:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    border: 1px solid #000;
+    width: 6px;
+    height: 100%;
+}
+.matrix:before {
+    left: -6px;
+    border-right: 0px;
+}
+.matrix:after {
+    right: -6px;
+    border-left: 0px;
+}
+.matrix td {
+    padding: 5px;    
+    text-align: center;
+}
+.equation td {
+    padding: 5px;
+}
+</style>
+</head>
+<body>
+
+<table class="equation">
+<tr>
+<td>
+    <table class="matrix">
+        <tr>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+    </table>
+</td>
+<td> &#215; </td>
+<td>
+    <table class="matrix">
+        <tr>
+            <td>0.8</td>
+            <td>0.4</td>
+            <td>0.3</td>
+        </tr>
+        <tr>
+            <td>0.2</td>
+            <td>0.9</td>
+            <td>0.5</td>
+        </tr>
+    </table>
+</td>
+<td>=</td>
+<td>
+    <table class="matrix">
+        <tr>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+        </tr>
+        <tr>
+            <td>0.2</td>
+            <td>0.9</td>
+            <td>0.5</td>
+        </tr>
+        <tr>
+            <td>0.8</td>
+            <td>0.4</td>
+            <td>0.3</td>
+        </tr>
+        <tr>
+            <td>1.0</td>
+            <td>1.3</td>
+            <td>0.8</td>
+        </tr>
+    </table>
+</td>
+
+</tr>
+</table>
+
+
+</body>
+</html>

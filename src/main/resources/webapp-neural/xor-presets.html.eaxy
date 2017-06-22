@@ -1,0 +1,15 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style/neural.css" />
+</head>
+<body>
+	<h1>Input to hidden layer:</h1>
+	<div id="equation-1"></div>
+	<h1>Sigmoid:</h1>
+	<div id="equation-2"></div>
+	<h1>Hidden to output layer:</h1>
+	<div id="equation-3"></div>
+	<h1>Sigmoid:</h1>
+	<div id="equation-4"></div>
+</body>
+</html>

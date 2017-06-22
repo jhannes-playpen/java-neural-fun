@@ -1,0 +1,29 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style/neural.css" />
+</head>
+<body>
+	<h2>Input to hidden layer:</h2>
+	<div id="equation-1"></div>
+	<h3>Sigmoid:</h3>
+	<div id="equation-2"></div>
+	<h2>Hidden to output layer:</h2>
+	<div id="equation-3"></div>
+	<h3>Sigmoid:</h3>
+	<div id="equation-4"></div>
+	
+	<h1>Backpropagation</h1>
+	
+	<h2>Hidden layer</h2>
+	<div id="equation-5"></div>
+	<div id="equation-6"></div>
+	
+	<h2>Input layer</h2>
+	<div id="equation-7"></div>
+	<h3>Delta</h3>
+	<div id="equation-8"></div>
+
+	<h1>Adjusted weights</h1>
+	<div id="equation-9"></div>
+</body>
+</html>
